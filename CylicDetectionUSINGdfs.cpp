@@ -38,7 +38,7 @@ class Graph
 			{
 				T vertex=i.first;
 				if(!visited[vertex])
-				return(cyclicHelper(vertex,visited,-1));
+				return(cyclicHelper(vertex,visited,-1));//As the first vertex is not having any parent
 			}
 			return false;
 		}
